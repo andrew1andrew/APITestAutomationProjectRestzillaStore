@@ -1,16 +1,18 @@
-Install the dependencies with the following command:
+<a name="Установка и запуск"><h2>Установка и запуск:</h2></a>
+
+Установите зависимости с помощью следующей команды:
 ```
 pip install -r requirements.txt
 ```
 
 \
-Run all tests with:
+Запуск всех тестов:
 ```
 pytest --alluredir=allure-results
 ```
 
 \
-To view the Allure report:
+Команда для просмотра allure отчёта:
 ```
 allure serve allure-results
 ```
