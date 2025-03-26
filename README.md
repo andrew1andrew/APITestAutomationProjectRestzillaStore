@@ -8,6 +8,10 @@ pip install -r requirements.txt
 \
 Запуск всех тестов:
 ```
+cd <укажите путь к тестам>
+```
+
+```
 pytest --alluredir=allure-results
 ```
 
